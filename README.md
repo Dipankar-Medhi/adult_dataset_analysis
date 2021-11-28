@@ -2,7 +2,11 @@
 Data Analysis of Adult dataset.
 
 # Table of contents
-- [
+- [EDA](#eda)
+    - [Univariate](#univariate-analysis)
+    - [Bivariate Analysis](#bivariate-analysis)
+- [Data Preprocessing](#data-preprocessing)
+- [Model Training and Evaluation](#model-training-and-evaluation)
 
 ## EDA
 ### Univariate Analysis
@@ -76,7 +80,7 @@ print("X test shape: {} and y test shape: {}".format(X_test.shape, y_test.shape)
 > X train shape: (25418, 108) and y train shape: (25418,)
 X test shape: (10894, 108) and y test shape: (10894,)
 
-## Model Training
+## Model Training and Evaluation
 ### Random Forest Classifier
 ![rfc](https://github.com/Dipankar-Medhi/adult_dataset_analysis/blob/master/rfc.jpg)
 
